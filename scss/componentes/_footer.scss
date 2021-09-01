@@ -1,0 +1,43 @@
+@import "../bases/bases";
+
+%menu-contacto {
+    color: $gris;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 15px;
+    display: flex;
+    justify-content: center;}
+
+    /*Footer*/
+    footer {
+        background-color: $azul;
+        padding: 10px 50px 30px 50px;
+        margin-top: 20px;
+        
+        div {
+            p {
+                color: $gris;
+                font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+                font-size: 18px;
+                text-align: center;
+                margin-top: 30px;
+                margin-bottom: 10px;}
+            
+            div {
+                display: flex;
+                justify-content: center;
+                align-items: center;
+            
+                img {
+                    width: 50px;
+                    margin: 10px;}
+
+                div {
+                    @extend %menu-contacto;}
+            }
+
+            .menucontacto {
+                @extend %menu-contacto;}
+        }
+
+    }
+    /*Fin footer*/

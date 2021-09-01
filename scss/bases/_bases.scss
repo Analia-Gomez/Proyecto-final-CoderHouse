@@ -1,0 +1,52 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;}
+
+
+@font-face {
+    font-family: "Muli";
+    src: url("../../tipografias/Muli.ttf") format("truetype")}
+@font-face {
+    font-family: "Muli-Light";
+    src: url("../../tipografias/Muli-Light.ttf") format("truetype")}
+@font-face {
+    font-family: "Muli-LightItalic";
+    src: url("../../tipografias/Muli-LightItalic.ttf") format("truetype")}
+@font-face {
+    font-family: "Muli-Italic";
+    src: url("../../tipografias/Muli-Italic.ttf") format("truetype")}
+@font-face {
+    font-family: "Muli-Bold";
+    src: url("../../tipografias/Muli-Bold.ttf") format("truetype")}
+@font-face {
+    font-family: "Muli-BoldItalic";
+    src: url("../../tipografias/Muli-BoldItalic.ttf") format("truetype")}
+
+
+/*Variables colores de la identidad*/
+$azul: #141f35;
+$azul-claro: #004f87;
+$amarillo: #f7a00e;
+$gris: #d0cfcd;
+$negro: #1b1e1f;
+
+
+
+/*Criterios generales de toda la página*/
+a:link, a:visited, a:active {
+    text-decoration:none;}
+
+body {
+    background-color: #e5e5e5;}
+    
+%textos-generales {
+    color: $negro;
+    font-family: "Muli";
+    font-size: 16px;
+    text-align: justify;
+    line-height: 20px;}
+    
+    p {
+        @extend %textos-generales;
+    }

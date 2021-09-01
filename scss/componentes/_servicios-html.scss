@@ -1,0 +1,18 @@
+@import "../bases/bases";
+
+@mixin textos-servicios($margin, $tamano, $align, $interlineado, $color) {
+    margin: $margin;
+    font-size: $tamano;
+    text-align: $align;
+    line-height: $interlineado;
+    color: $color;
+}
+
+
+section {
+    div {
+        .p-especial {
+            @include textos-servicios(10px, 18px, justify, 24px, $azul-claro)
+        }
+    }
+}

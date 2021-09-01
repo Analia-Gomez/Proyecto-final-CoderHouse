@@ -1,0 +1,54 @@
+@import "../bases/bases";
+
+%menu {
+    list-style-type: none;
+    color: $gris !important;
+    border: 1px solid $gris;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 18px;
+    text-align: center;
+    padding: 5px 15px;}
+
+/*Header*/
+header {
+    background-color: $azul; 
+
+    nav {
+        div {
+            .hamburguesa {
+                background-color: $gris;}
+            div {
+                ul {
+                    li {
+                        a {
+                            @extend %menu;
+                            &:hover {
+                                background-color: $amarillo;
+                                color: $negro !important;
+                                border: none;}
+                            }
+                        .caja-menu {
+                            background-color: $gris;
+                            opacity: 0.9;
+                            border: none;
+                            border-radius: none;
+                            li {
+                                a {
+                                    color: $negro !important;
+                                    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+                                    font-size: 16px;
+                                    text-align: center;}
+                            }
+                        }
+                    }
+                }
+            }
+            a {
+                img {
+                    width: 280px;}
+            }
+        }
+    }
+    
+}
+/*Fin header*/

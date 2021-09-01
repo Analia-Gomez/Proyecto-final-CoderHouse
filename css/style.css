@@ -1,0 +1,430 @@
+@charset "UTF-8";
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+
+@font-face {
+  font-family: "Muli";
+  src: url("../../tipografias/Muli.ttf") format("truetype");
+}
+@font-face {
+  font-family: "Muli-Light";
+  src: url("../../tipografias/Muli-Light.ttf") format("truetype");
+}
+@font-face {
+  font-family: "Muli-LightItalic";
+  src: url("../../tipografias/Muli-LightItalic.ttf") format("truetype");
+}
+@font-face {
+  font-family: "Muli-Italic";
+  src: url("../../tipografias/Muli-Italic.ttf") format("truetype");
+}
+@font-face {
+  font-family: "Muli-Bold";
+  src: url("../../tipografias/Muli-Bold.ttf") format("truetype");
+}
+@font-face {
+  font-family: "Muli-BoldItalic";
+  src: url("../../tipografias/Muli-BoldItalic.ttf") format("truetype");
+}
+/*Variables colores de la identidad*/
+/*Criterios generales de toda la página*/
+a:link, a:visited, a:active {
+  text-decoration: none;
+}
+
+body {
+  background-color: #e5e5e5;
+}
+
+p {
+  color: #1b1e1f;
+  font-family: "Muli";
+  font-size: 16px;
+  text-align: justify;
+  line-height: 20px;
+}
+
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+
+@font-face {
+  font-family: "Muli";
+  src: url("../../tipografias/Muli.ttf") format("truetype");
+}
+@font-face {
+  font-family: "Muli-Light";
+  src: url("../../tipografias/Muli-Light.ttf") format("truetype");
+}
+@font-face {
+  font-family: "Muli-LightItalic";
+  src: url("../../tipografias/Muli-LightItalic.ttf") format("truetype");
+}
+@font-face {
+  font-family: "Muli-Italic";
+  src: url("../../tipografias/Muli-Italic.ttf") format("truetype");
+}
+@font-face {
+  font-family: "Muli-Bold";
+  src: url("../../tipografias/Muli-Bold.ttf") format("truetype");
+}
+@font-face {
+  font-family: "Muli-BoldItalic";
+  src: url("../../tipografias/Muli-BoldItalic.ttf") format("truetype");
+}
+/*Variables colores de la identidad*/
+/*Criterios generales de toda la página*/
+a:link, a:visited, a:active {
+  text-decoration: none;
+}
+
+body {
+  background-color: #e5e5e5;
+}
+
+p {
+  color: #1b1e1f;
+  font-family: "Muli";
+  font-size: 16px;
+  text-align: justify;
+  line-height: 20px;
+}
+
+header nav div div ul li a {
+  list-style-type: none;
+  color: #d0cfcd !important;
+  border: 1px solid #d0cfcd;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  font-size: 18px;
+  text-align: center;
+  padding: 5px 15px;
+}
+
+/*Header*/
+header {
+  background-color: #141f35;
+}
+header nav div .hamburguesa {
+  background-color: #d0cfcd;
+}
+header nav div div ul li a:hover {
+  background-color: #f7a00e;
+  color: #1b1e1f !important;
+  border: none;
+}
+header nav div div ul li .caja-menu {
+  background-color: #d0cfcd;
+  opacity: 0.9;
+  border: none;
+  border-radius: none;
+}
+header nav div div ul li .caja-menu li a {
+  color: #1b1e1f !important;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  font-size: 16px;
+  text-align: center;
+}
+header nav div a img {
+  width: 280px;
+}
+
+/*Fin header*/
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+
+@font-face {
+  font-family: "Muli";
+  src: url("../../tipografias/Muli.ttf") format("truetype");
+}
+@font-face {
+  font-family: "Muli-Light";
+  src: url("../../tipografias/Muli-Light.ttf") format("truetype");
+}
+@font-face {
+  font-family: "Muli-LightItalic";
+  src: url("../../tipografias/Muli-LightItalic.ttf") format("truetype");
+}
+@font-face {
+  font-family: "Muli-Italic";
+  src: url("../../tipografias/Muli-Italic.ttf") format("truetype");
+}
+@font-face {
+  font-family: "Muli-Bold";
+  src: url("../../tipografias/Muli-Bold.ttf") format("truetype");
+}
+@font-face {
+  font-family: "Muli-BoldItalic";
+  src: url("../../tipografias/Muli-BoldItalic.ttf") format("truetype");
+}
+/*Variables colores de la identidad*/
+/*Criterios generales de toda la página*/
+a:link, a:visited, a:active {
+  text-decoration: none;
+}
+
+body {
+  background-color: #e5e5e5;
+}
+
+p {
+  color: #1b1e1f;
+  font-family: "Muli";
+  font-size: 16px;
+  text-align: justify;
+  line-height: 20px;
+}
+
+footer div .menucontacto, footer div div div {
+  color: #d0cfcd;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  font-size: 15px;
+  display: flex;
+  justify-content: center;
+}
+
+/*Footer*/
+footer {
+  background-color: #141f35;
+  padding: 10px 50px 30px 50px;
+  margin-top: 20px;
+}
+footer div p {
+  color: #d0cfcd;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  font-size: 18px;
+  text-align: center;
+  margin-top: 30px;
+  margin-bottom: 10px;
+}
+footer div div {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+footer div div img {
+  width: 50px;
+  margin: 10px;
+}
+/*Fin footer*/
+.SECCIONES {
+  background-color: #f7a00e;
+  color: #1b1e1f;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  font-size: 35px;
+  text-align: left;
+  padding: 15px 20px 15px 50px;
+  margin: 180px 20px 20px 0px;
+}
+
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+
+@font-face {
+  font-family: "Muli";
+  src: url("../../tipografias/Muli.ttf") format("truetype");
+}
+@font-face {
+  font-family: "Muli-Light";
+  src: url("../../tipografias/Muli-Light.ttf") format("truetype");
+}
+@font-face {
+  font-family: "Muli-LightItalic";
+  src: url("../../tipografias/Muli-LightItalic.ttf") format("truetype");
+}
+@font-face {
+  font-family: "Muli-Italic";
+  src: url("../../tipografias/Muli-Italic.ttf") format("truetype");
+}
+@font-face {
+  font-family: "Muli-Bold";
+  src: url("../../tipografias/Muli-Bold.ttf") format("truetype");
+}
+@font-face {
+  font-family: "Muli-BoldItalic";
+  src: url("../../tipografias/Muli-BoldItalic.ttf") format("truetype");
+}
+/*Variables colores de la identidad*/
+/*Criterios generales de toda la página*/
+a:link, a:visited, a:active {
+  text-decoration: none;
+}
+
+body {
+  background-color: #e5e5e5;
+}
+
+p {
+  color: #1b1e1f;
+  font-family: "Muli";
+  font-size: 16px;
+  text-align: justify;
+  line-height: 20px;
+}
+
+section div .p-especial {
+  margin: 10px;
+  font-size: 18px;
+  text-align: justify;
+  line-height: 24px;
+  color: #004f87;
+}
+
+/*NO APLIQUÉ SASS EN ESTAS SECCIONES*/
+/*Galeria de imagenes*/
+#HOME {
+  margin-top: 130px;
+  width: 1903px;
+  height: 840px;
+  background-image: url("../imagenes-proyecto/galeria1.svg");
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  animation: Galería-img 20s;
+}
+
+@keyframes Galería-img {
+  0% {
+    background-image: url("../imagenes-proyecto/galeria1.svg");
+  }
+  25% {
+    background-image: url("../imagenes-proyecto/galeria2.svg");
+  }
+  50% {
+    background-image: url("../imagenes-proyecto/galeria3.svg");
+  }
+  75% {
+    background-image: url("../imagenes-proyecto/galeria4.svg");
+  }
+  100% {
+    background-image: url("../imagenes-proyecto/galeria1.svg");
+  }
+}
+.tex-adelante-galeria {
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  font-size: 20px;
+  color: #1b1e1f;
+  text-align: center;
+  background-color: #f7a00e;
+  opacity: 0.8;
+  padding: 20px;
+}
+
+/*Fin galeria de imagenes*/
+/*específico de la sección Servicios*/
+.Titulos1 {
+  color: #141f35;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  font-size: 25px;
+  text-align: left;
+  margin-top: 15px;
+}
+
+.parrafos-servicios {
+  text-align: left;
+  margin-top: 10px;
+}
+
+.sabermas {
+  width: 110px;
+  background-color: #e5e5e5;
+  color: #004f87;
+  border: 2px solid #004f87;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  font-size: 18px;
+  text-align: center;
+  padding: 6px 9px;
+  display: block;
+  margin-top: 20px;
+}
+
+.sabermas:hover {
+  background-color: #004f87;
+  color: #d0cfcd;
+}
+
+/*Fin sección Servicios*/
+/*específico de la sección Trabajos*/
+.Titulos2 {
+  color: #1b1e1f;
+  background-color: #d0cfcd;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  font-size: 30px;
+  text-align: left;
+  padding: 10px 20px 10px 20px;
+}
+
+.descripciones-trabajo {
+  color: #d0cfcd;
+  background-color: #141f35;
+  font-size: 18px;
+  text-align: left;
+  padding: 10px;
+}
+
+.img-atras {
+  position: relative;
+  text-align: center;
+}
+
+.tex-adelante1 {
+  position: absolute;
+  top: 0%;
+  left: 0%;
+  display: block;
+  width: 80%;
+  margin: 50px;
+  margin-top: 100px;
+}
+
+/*Fin sección Trabajos*/
+/*específico de la sección sobre mi*/
+.nombre {
+  color: #1b1e1f;
+  background-color: #d0cfcd;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  font-size: 35px;
+  text-align: left;
+  padding: 4px 25px;
+}
+
+.parrafo-sobremi {
+  background-color: #004f87;
+  color: #d0cfcd;
+  font-size: 18px;
+  line-height: 22px;
+  text-align: justify;
+  padding: 16px 25px;
+  margin-top: 20px;
+}
+
+.Titulos1-b {
+  color: #141f35;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  font-size: 25px;
+  text-align: left;
+  margin-top: 30px;
+}
+
+.parrafos-sobremi2 {
+  color: #1b1e1f;
+  font-family: "Muli";
+  font-size: 16px;
+  text-align: justify;
+  line-height: 20px;
+  margin-top: 8px;
+}
+
+/*Fin sección Sobre mi*/
+
+/*# sourceMappingURL=style.css.map */
