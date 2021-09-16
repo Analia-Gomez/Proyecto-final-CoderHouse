@@ -1,7 +1,7 @@
 <?php
 // Conecto mi form / name / con el server a traves de los name
 $nombre = $_POST['nombre'];
-$mail = $_POST['email'];
+$mail = $_POST['mail'];
 $asunto = $_POST['asunto'];
 $mensaje = $_POST['mensaje'];
 
@@ -18,7 +18,7 @@ $mensaje .= "El asunto es: " . $asunto . " \r\n";
 $mensaje .= "Mensaje: " . $_POST['mensaje'] . " \r\n";
 $mensaje .= "Enviado el " . date('d/m/Y', time());
 
-$para = 'nicolas.seguro@gmail.com'; // El mail a donde van a llegar los mensajes
+$para = 'analiacelesteg@gmail.com'; // El mail a donde van a llegar los mensajes
 $asunto = 'Mensaje de mi sitio web';
 
 mail($para, $asunto, utf8_decode($mensaje), $header);

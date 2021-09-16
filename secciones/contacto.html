@@ -82,25 +82,43 @@
         </section>
 
         <section>
-            <h2>DEJAME TU CONSULTA</h2>
-            <form method="POST" action="enviar.php">
-                <label for="nombre-cliente">Nombre</label>
-                <input type="text" name="nombre" id="nombre-cliente">
+            <h2 class="row d-flex justify-content-center">DEJAME TU CONSULTA</h2>
+            <form method="POST" action="enviar.php" class="row">
+                <div class="offset-3 col-6 offset-3">
+                  <label for="nombre-cliente">Nombre</label>
+                </div>
+                <div class="offset-3 col-6 offset-3">
+                  <input type="text" name="nombre" id="nombre-cliente" class="mb-3">
+                </div>
 
-                <label for="mail-cliente">Mail</label>
-                <input type="text" name="mail" id="mail-cliente">
+                <div class="offset-3 col-6 offset-3">
+                  <label for="mail-cliente">Mail</label>
+                </div>
+                <div class="offset-3 col-6 offset-3">
+                  <input type="text" name="mail" id="mail-cliente" class="mb-3">
+                </div>
 
-                <label for="asunto-cliente">Asunto</label>
-                <input type="text" name="asunto" id="asunto-cliente">
+                <div class="offset-3 col-6 offset-3">
+                  <label for="asunto-cliente">Asunto</label>
+                </div>
+                <div class="offset-3 col-6 offset-3">
+                  <input type="text" name="asunto" id="asunto-cliente" class="mb-3">
+                </div>
+              
+                <div class="offset-3 col-6 offset-3">
+                  <label for="mensaje-cliente">Mensaje</label>
+                </div>
 
-                <label for="mensaje-cliente">Mensaje</label>
-                <textarea name="mensaje" id="mensaje-cliente" cols="30" rows="10">Dejame tu consulta aqui...</textarea>
+                <div class="offset-3 col-6 offset-3">
+                  <textarea name="mensaje" id="mensaje-cliente" placeholder="Dejame tu consulta aqui..." cols="80" rows="10"></textarea>
+                </div>
 
-                <button type="submit" class="btn btn-primary">Enviar</button>
+                <div class="offset-3 col-6 offset-3 d-flex justify-content-center">
+                  <button type="submit" class="btn btn-primary mb-5">Enviar</button>
+                </div>
             </form>
         </section>
     </section>
-
 
     <!--Footer-->
     <footer class="row">
