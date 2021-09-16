@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -48,8 +48,8 @@
                           </a>
                           <ul class="dropdown-menu caja-menu" aria-labelledby="navbarDropdownMenuLink">
                             <li><a class="dropdown-item" href="vivienda-mazcazzini.html">Vivienda Mazcazzini</a></li>
-                            <li><a class="dropdown-item" href="trabajo2.html">Trabajo 2</a></li>
-                            <li><a class="dropdown-item" href="trabajo3.html">Trabajo 3</a></li>
+                            <li><a class="dropdown-item" href="trabajo2.html">Mansión Violeta</a></li>
+                            <li><a class="dropdown-item" href="trabajo3.html">Vivienda Francisca</a></li>
                           </ul>
                         </li>
                         <li class="nav-item">
@@ -65,23 +65,42 @@
     </header>
     <!--Fin header Bootstrap-->
 
-    <h1>CONTACTAME... y tomemos juntos la mejor decisión</h1>
+    <section class="container">
+        <div class="row">
+          <h1 class="SECCIONES col-12">CONTACTAME... y tomemos juntos la mejor decisión</h1>
+        </div>
 
-    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3540.200090615956!2d-58.78509948425873!3d-27.463029422995696!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94456ae1d08f33b3%3A0xf099c76ed09cde6f!2sRemedios%20de%20Escalada%205425%2C%20Corrientes!5e0!3m2!1ses-419!2sar!4v1626218689131!5m2!1ses-419!2sar" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
-    <img src="../imagenes-proyecto/ubicacion.png" alt="icono ubicacion">
-        <p>Remedios de Escalada 5425 - Corrientes. Argentina</p>
-        <p>grgarq@gmail.com</p>
-        <p>3794-897654</p>
+        <section>
+          <div class="row">
+            <img class="col-1" src="../imagenes-proyecto/ubicacion.png" alt="icono ubicacion">
+            <div class="col-11">
+              <h2>MI OFICINA</h2>
+              <p>Remedios de Escalada 5425 - Corrientes. Argentina</p>
+            </div>
+          </div>
+          <iframe class="col-12 mt-3 mb-5" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3540.200090615956!2d-58.78509948425873!3d-27.463029422995696!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94456ae1d08f33b3%3A0xf099c76ed09cde6f!2sRemedios%20de%20Escalada%205425%2C%20Corrientes!5e0!3m2!1ses-419!2sar!4v1626218689131!5m2!1ses-419!2sar" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+        </section>
 
-    <section>
-        <h2>DEJAME TU CONSULTA</h2>
-        <!--aca iría como un formulario para enviar mensajes-->
-        <p>Nombre:</p>
-        <p>Mail:</p>
-        <p>Asunto:</p>
-        <p>Mensaje:</p>
-        <p>ENVIAR</p>
+        <section>
+            <h2>DEJAME TU CONSULTA</h2>
+            <form method="POST" action="enviar.php">
+                <label for="nombre-cliente">Nombre</label>
+                <input type="text" name="nombre" id="nombre-cliente">
+
+                <label for="mail-cliente">Mail</label>
+                <input type="text" name="mail" id="mail-cliente">
+
+                <label for="asunto-cliente">Asunto</label>
+                <input type="text" name="asunto" id="asunto-cliente">
+
+                <label for="mensaje-cliente">Mensaje</label>
+                <textarea name="mensaje" id="mensaje-cliente" cols="30" rows="10">Dejame tu consulta aqui...</textarea>
+
+                <button type="submit" class="btn btn-primary">Enviar</button>
+            </form>
+        </section>
     </section>
+
 
     <!--Footer-->
     <footer class="row">
