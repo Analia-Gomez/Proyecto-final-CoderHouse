@@ -4,7 +4,8 @@
     list-style-type: none;
     color: $gris !important;
     border: 1px solid $gris;
-    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-family: "Raleway";
+    font-weight: 600;
     font-size: 18px;
     text-align: center;
     padding: 5px 15px;}
@@ -35,8 +36,8 @@ header {
                             li {
                                 a {
                                     color: $negro !important;
-                                    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-                                    font-size: 16px;
+                                    font-family: "Raleway";
+                                    font-size: 15px;
                                     text-align: center;}
                             }
                         }

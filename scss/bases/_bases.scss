@@ -7,21 +7,11 @@
 @font-face {
     font-family: "Muli";
     src: url("../../tipografias/Muli.ttf") format("truetype")}
+
 @font-face {
-    font-family: "Muli-Light";
-    src: url("../../tipografias/Muli-Light.ttf") format("truetype")}
-@font-face {
-    font-family: "Muli-LightItalic";
-    src: url("../../tipografias/Muli-LightItalic.ttf") format("truetype")}
-@font-face {
-    font-family: "Muli-Italic";
-    src: url("../../tipografias/Muli-Italic.ttf") format("truetype")}
-@font-face {
-    font-family: "Muli-Bold";
-    src: url("../../tipografias/Muli-Bold.ttf") format("truetype")}
-@font-face {
-    font-family: "Muli-BoldItalic";
-    src: url("../../tipografias/Muli-BoldItalic.ttf") format("truetype")}
+    font-family: "Raleway";
+    src: url("../../tipografias/Raleway-Medium.ttf") format("truetype")}
+
 
 
 /*Variables colores de la identidad*/
@@ -38,8 +28,9 @@ a:link, a:visited, a:active {
     text-decoration:none;}
 
 body {
-    background-color: #e5e5e5;}
-    
+    background-color: #e5e5e5;
+    overflow-x: hidden;}
+
 %textos-generales {
     color: $negro;
     font-family: "Muli";
