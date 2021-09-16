@@ -1,11 +1,11 @@
 {
-  "name": "html",
+  "name": "proyecto-final-coderhouse",
   "version": "1.0.0",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "author": "",
+  "author": "Analía Gómez",
   "license": "ISC",
-  "description": ""
+  "description": "Proyecto final para el curso de Desarrollo Web de CODERHOUSE: página web para el arquitecto Guillermo Rodolfo Gómez"
 }
