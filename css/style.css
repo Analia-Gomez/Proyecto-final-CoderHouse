@@ -32,6 +32,16 @@ p {
   line-height: 20px;
 }
 
+#HOME .tex-adelante-galeria {
+  font-family: "Raleway";
+  font-size: 0.5em;
+  color: #d0cfcd;
+  border: 1px solid #d0cfcd;
+  text-align: center;
+  padding: 10px;
+  z-index: 50;
+}
+
 * {
   margin: 0px;
   padding: 0px;
@@ -63,6 +73,16 @@ p {
   font-size: 16px;
   text-align: justify;
   line-height: 20px;
+}
+
+#HOME .tex-adelante-galeria {
+  font-family: "Raleway";
+  font-size: 0.5em;
+  color: #d0cfcd;
+  border: 1px solid #d0cfcd;
+  text-align: center;
+  padding: 10px;
+  z-index: 50;
 }
 
 header nav div div ul li a {
@@ -136,6 +156,16 @@ p {
   font-size: 16px;
   text-align: justify;
   line-height: 20px;
+}
+
+#HOME .tex-adelante-galeria {
+  font-family: "Raleway";
+  font-size: 0.5em;
+  color: #d0cfcd;
+  border: 1px solid #d0cfcd;
+  text-align: center;
+  padding: 10px;
+  z-index: 50;
 }
 
 footer div .menucontacto, footer div div div {
@@ -214,6 +244,16 @@ p {
   line-height: 20px;
 }
 
+#HOME .tex-adelante-galeria {
+  font-family: "Raleway";
+  font-size: 0.5em;
+  color: #d0cfcd;
+  border: 1px solid #d0cfcd;
+  text-align: center;
+  padding: 10px;
+  z-index: 50;
+}
+
 section div .p-especial {
   margin: 10px;
   font-size: 18px;
@@ -255,20 +295,26 @@ p {
   line-height: 20px;
 }
 
-#HOME {
-  margin-top: 130px;
+#HOME .tex-adelante-galeria {
+  font-family: "Raleway";
+  font-size: 0.5em;
+  color: #d0cfcd;
+  border: 1px solid #d0cfcd;
+  text-align: center;
+  padding: 10px;
+  z-index: 50;
 }
 
-.tex-adelante-galeria {
-  font-family: "Raleway";
-  font-size: 20px;
-  color: #1b1e1f;
-  text-align: center;
-  background-color: #f7a00e;
-  opacity: 0.8;
-  padding: 20px;
-  top: 500px;
-  z-index: 50;
+#HOME {
+  margin-top: 130px;
+  display: flex;
+  align-items: center;
+}
+#HOME div h1 {
+  font-weight: 600;
+}
+#HOME div h1 span {
+  font-weight: 300;
 }
 
 /*NO APLIQUÉ SASS EN ESTAS SECCIONES*/
