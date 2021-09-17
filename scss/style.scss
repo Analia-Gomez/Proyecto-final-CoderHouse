@@ -1,37 +1,11 @@
 @import "bases/bases";
 @import "componentes/header";
 @import "componentes/footer";
-@import "bases/titulos-secciones";
 @import "componentes/servicios-html";
 @import "componentes/galeria-index";
+@import "componentes/servicios-index";
 
 /*NO APLIQUÉ SASS EN ESTAS SECCIONES*/
-
-/*específico de la sección Servicios*/
-.Titulos1 {
-    color:#141f35;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    font-size: 25px;
-    text-align: left;
-    margin-top: 15px;}
-.parrafos-servicios {
-    text-align: left;
-    margin-top: 10px;}
-.sabermas {
-    width: 110px;
-    background-color: #e5e5e5;
-    color: #004f87;
-    border: 2px solid #004f87;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    font-size: 18px;
-    text-align: center;
-    padding: 6px 9px;
-    display: block;
-    margin-top: 20px;}
-.sabermas:hover {
-    background-color: #004f87;
-    color: #d0cfcd;}
-/*Fin sección Servicios*/
 
 
 /*específico de la sección Trabajos*/

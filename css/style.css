@@ -42,6 +42,28 @@ p {
   z-index: 50;
 }
 
+.SECCIONES {
+  color: #1b1e1f;
+  font-family: "Raleway";
+  font-weight: 600;
+  font-size: 32px;
+  text-align: left;
+  margin-top: 160px;
+  margin-bottom: 0px;
+}
+
+.SECCIONES {
+  display: flex;
+  align-items: center;
+}
+
+.rectangulo-amarillo {
+  background-color: #f7a00e;
+  width: 20px;
+  height: 60px;
+  margin-top: 160px;
+}
+
 * {
   margin: 0px;
   padding: 0px;
@@ -83,6 +105,28 @@ p {
   text-align: center;
   padding: 10px;
   z-index: 50;
+}
+
+.SECCIONES {
+  color: #1b1e1f;
+  font-family: "Raleway";
+  font-weight: 600;
+  font-size: 32px;
+  text-align: left;
+  margin-top: 160px;
+  margin-bottom: 0px;
+}
+
+.SECCIONES {
+  display: flex;
+  align-items: center;
+}
+
+.rectangulo-amarillo {
+  background-color: #f7a00e;
+  width: 20px;
+  height: 60px;
+  margin-top: 160px;
 }
 
 header nav div div ul li a {
@@ -168,6 +212,28 @@ p {
   z-index: 50;
 }
 
+.SECCIONES {
+  color: #1b1e1f;
+  font-family: "Raleway";
+  font-weight: 600;
+  font-size: 32px;
+  text-align: left;
+  margin-top: 160px;
+  margin-bottom: 0px;
+}
+
+.SECCIONES {
+  display: flex;
+  align-items: center;
+}
+
+.rectangulo-amarillo {
+  background-color: #f7a00e;
+  width: 20px;
+  height: 60px;
+  margin-top: 160px;
+}
+
 footer div .menucontacto, footer div div div {
   color: #d0cfcd;
   font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
@@ -200,17 +266,6 @@ footer div div img {
   margin: 10px;
 }
 /*Fin footer*/
-.SECCIONES {
-  background-color: #f7a00e;
-  color: #1b1e1f;
-  font-family: "Raleway";
-  font-weight: 600;
-  font-size: 35px;
-  text-align: left;
-  padding: 15px 20px 15px 50px;
-  margin: 180px 20px 20px 0px;
-}
-
 * {
   margin: 0px;
   padding: 0px;
@@ -252,6 +307,28 @@ p {
   text-align: center;
   padding: 10px;
   z-index: 50;
+}
+
+.SECCIONES {
+  color: #1b1e1f;
+  font-family: "Raleway";
+  font-weight: 600;
+  font-size: 32px;
+  text-align: left;
+  margin-top: 160px;
+  margin-bottom: 0px;
+}
+
+.SECCIONES {
+  display: flex;
+  align-items: center;
+}
+
+.rectangulo-amarillo {
+  background-color: #f7a00e;
+  width: 20px;
+  height: 60px;
+  margin-top: 160px;
 }
 
 section div .p-especial {
@@ -305,6 +382,28 @@ p {
   z-index: 50;
 }
 
+.SECCIONES {
+  color: #1b1e1f;
+  font-family: "Raleway";
+  font-weight: 600;
+  font-size: 32px;
+  text-align: left;
+  margin-top: 160px;
+  margin-bottom: 0px;
+}
+
+.SECCIONES {
+  display: flex;
+  align-items: center;
+}
+
+.rectangulo-amarillo {
+  background-color: #f7a00e;
+  width: 20px;
+  height: 60px;
+  margin-top: 160px;
+}
+
 #HOME {
   margin-top: 130px;
   display: flex;
@@ -317,31 +416,93 @@ p {
   font-weight: 300;
 }
 
-/*NO APLIQUÉ SASS EN ESTAS SECCIONES*/
-/*específico de la sección Servicios*/
-.Titulos1 {
-  color: #141f35;
-  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
-  font-size: 25px;
-  text-align: left;
-  margin-top: 15px;
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
 }
 
-.parrafos-servicios {
-  text-align: left;
-  margin-top: 10px;
+@font-face {
+  font-family: "Muli";
+  src: url("../../tipografias/Muli.ttf") format("truetype");
+}
+@font-face {
+  font-family: "Raleway";
+  src: url("../../tipografias/Raleway-Medium.ttf") format("truetype");
+}
+/*Variables colores de la identidad*/
+/*Criterios generales de toda la página*/
+a:link, a:visited, a:active {
+  text-decoration: none;
 }
 
-.sabermas {
-  width: 110px;
+body {
   background-color: #e5e5e5;
+  overflow-x: hidden;
+}
+
+p {
+  color: #1b1e1f;
+  font-family: "Muli";
+  font-size: 16px;
+  text-align: justify;
+  line-height: 20px;
+}
+
+#HOME .tex-adelante-galeria {
+  font-family: "Raleway";
+  font-size: 0.5em;
+  color: #d0cfcd;
+  border: 1px solid #d0cfcd;
+  text-align: center;
+  padding: 10px;
+  z-index: 50;
+}
+
+.SECCIONES {
+  color: #1b1e1f;
+  font-family: "Raleway";
+  font-weight: 600;
+  font-size: 32px;
+  text-align: left;
+  margin-top: 160px;
+  margin-bottom: 0px;
+}
+
+.SECCIONES {
+  display: flex;
+  align-items: center;
+}
+
+.rectangulo-amarillo {
+  background-color: #f7a00e;
+  width: 20px;
+  height: 60px;
+  margin-top: 160px;
+}
+
+#SERVICIOS div div h3 {
+  color: #1b1e1f;
+  font-family: "Raleway";
+  font-weight: 600;
+  font-size: 22px;
+  text-align: center;
+  margin-top: 18px;
+}
+#SERVICIOS div div p {
+  text-align: center;
+  margin-top: 10px;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+#SERVICIOS div div .sabermas {
+  width: 110px;
   color: #004f87;
   border: 2px solid #004f87;
-  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  font-family: "Raleway";
   font-size: 18px;
   text-align: center;
   padding: 6px 9px;
-  display: block;
   margin-top: 20px;
 }
 
@@ -350,7 +511,7 @@ p {
   color: #d0cfcd;
 }
 
-/*Fin sección Servicios*/
+/*NO APLIQUÉ SASS EN ESTAS SECCIONES*/
 /*específico de la sección Trabajos*/
 .Titulos2 {
   color: #1b1e1f;
