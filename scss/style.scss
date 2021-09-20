@@ -4,36 +4,9 @@
 @import "componentes/servicios-html";
 @import "componentes/galeria-index";
 @import "componentes/servicios-index";
+@import "componentes/trabajos-index";
 
 /*NO APLIQUÉ SASS EN ESTAS SECCIONES*/
-
-
-/*específico de la sección Trabajos*/
-.Titulos2 {
-    color:#1b1e1f;
-    background-color: #d0cfcd;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    font-size: 30px;
-    text-align: left;
-    padding: 10px 20px 10px 20px;}
-.descripciones-trabajo {
-    color:#d0cfcd;
-    background-color: #141f35;
-    font-size: 18px;
-    text-align: left;
-    padding: 10px;}
-.img-atras {
-    position: relative;
-    text-align: center;}
-.tex-adelante1 {
-    position: absolute;
-    top: 0%;
-    left: 0%;
-    display: block;
-    width: 80%;
-    margin: 50px;
-    margin-top: 100px;}
-/*Fin sección Trabajos*/
 
 
 /*específico de la sección sobre mi*/

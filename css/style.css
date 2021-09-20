@@ -510,41 +510,101 @@ p {
   color: #d0cfcd;
 }
 
-/*NO APLIQUÉ SASS EN ESTAS SECCIONES*/
-/*específico de la sección Trabajos*/
-.Titulos2 {
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+
+@font-face {
+  font-family: "Muli";
+  src: url("../../tipografias/Muli.ttf") format("truetype");
+}
+@font-face {
+  font-family: "Raleway";
+  src: url("../../tipografias/Raleway-Medium.ttf") format("truetype");
+}
+/*Variables colores de la identidad*/
+/*Criterios generales de toda la página*/
+a:link, a:visited, a:active {
+  text-decoration: none;
+}
+
+body {
+  background-color: #e5e5e5;
+  overflow-x: hidden;
+}
+
+p {
   color: #1b1e1f;
-  background-color: #d0cfcd;
-  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
-  font-size: 30px;
-  text-align: left;
-  padding: 10px 20px 10px 20px;
+  font-family: "Muli";
+  font-size: 16px;
+  text-align: justify;
+  line-height: 20px;
 }
 
-.descripciones-trabajo {
+#HOME .tex-adelante-galeria {
+  font-family: "Raleway";
+  font-size: 0.5em;
   color: #d0cfcd;
-  background-color: #141f35;
-  font-size: 18px;
-  text-align: left;
-  padding: 10px;
-}
-
-.img-atras {
-  position: relative;
+  border: 1px solid #d0cfcd;
   text-align: center;
+  padding: 10px;
+  z-index: 50;
 }
 
-.tex-adelante1 {
+.SECCIONES {
+  color: #1b1e1f;
+  font-family: "Raleway";
+  font-weight: 600;
+  font-size: 32px;
+  text-align: left;
+  margin-top: 160px;
+  margin-bottom: 0px;
+}
+
+.SECCIONES {
+  display: flex;
+  align-items: center;
+}
+
+.rectangulo-amarillo {
+  background-color: #f7a00e;
+  width: 20px;
+  height: 60px;
+  margin-top: 160px;
+}
+
+#TRABAJOS div div h3 {
+  font-family: "Raleway";
+  font-weight: 600;
+  font-size: 30px;
+  color: #1b1e1f;
+  border-top-style: solid;
+  border-top-width: 2px;
+  border-top-color: #f7a00e;
+  border-bottom-style: solid;
+  border-bottom-width: 2px;
+  border-bottom-color: #f7a00e;
+  line-height: 40pt;
+}
+
+.contenedor-img {
+  position: relative;
+  height: 370px;
+  width: 370px;
+  float: left;
+}
+.contenedor-img img {
   position: absolute;
-  top: 0%;
-  left: 0%;
-  display: block;
-  width: 80%;
-  margin: 50px;
-  margin-top: 100px;
+  left: 0;
+  transition: opacity 0.8s ease-in-out;
+}
+.contenedor-img .img2:hover {
+  opacity: 0;
 }
 
-/*Fin sección Trabajos*/
+/*NO APLIQUÉ SASS EN ESTAS SECCIONES*/
 /*específico de la sección sobre mi*/
 .nombre {
   color: #1b1e1f;
