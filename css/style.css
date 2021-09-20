@@ -236,8 +236,9 @@ p {
 
 footer div .menucontacto, footer div div div {
   color: #d0cfcd;
-  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
-  font-size: 15px;
+  font-family: "Raleway";
+  font-weight: 300;
+  font-size: 14px;
   display: flex;
   justify-content: center;
 }
@@ -250,7 +251,8 @@ footer {
 }
 footer div p {
   color: #d0cfcd;
-  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  font-family: "Raleway";
+  font-weight: 600;
   font-size: 18px;
   text-align: center;
   margin-top: 30px;
@@ -604,44 +606,88 @@ p {
   opacity: 0;
 }
 
-/*NO APLIQUÉ SASS EN ESTAS SECCIONES*/
-/*específico de la sección sobre mi*/
-.nombre {
-  color: #1b1e1f;
-  background-color: #d0cfcd;
-  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
-  font-size: 35px;
-  text-align: left;
-  padding: 4px 25px;
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
 }
 
-.parrafo-sobremi {
-  background-color: #004f87;
-  color: #d0cfcd;
-  font-size: 18px;
-  line-height: 22px;
-  text-align: justify;
-  padding: 16px 25px;
-  margin-top: 20px;
+@font-face {
+  font-family: "Muli";
+  src: url("../../tipografias/Muli.ttf") format("truetype");
+}
+@font-face {
+  font-family: "Raleway";
+  src: url("../../tipografias/Raleway-Medium.ttf") format("truetype");
+}
+/*Variables colores de la identidad*/
+/*Criterios generales de toda la página*/
+a:link, a:visited, a:active {
+  text-decoration: none;
 }
 
-.Titulos1-b {
-  color: #141f35;
-  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
-  font-size: 25px;
-  text-align: left;
-  margin-top: 30px;
+body {
+  background-color: #e5e5e5;
+  overflow-x: hidden;
 }
 
-.parrafos-sobremi2 {
+p {
   color: #1b1e1f;
   font-family: "Muli";
   font-size: 16px;
   text-align: justify;
   line-height: 20px;
-  margin-top: 8px;
 }
 
-/*Fin sección Sobre mi*/
+#HOME .tex-adelante-galeria {
+  font-family: "Raleway";
+  font-size: 0.5em;
+  color: #d0cfcd;
+  border: 1px solid #d0cfcd;
+  text-align: center;
+  padding: 10px;
+  z-index: 50;
+}
+
+.SECCIONES {
+  color: #1b1e1f;
+  font-family: "Raleway";
+  font-weight: 600;
+  font-size: 32px;
+  text-align: left;
+  margin-top: 160px;
+  margin-bottom: 0px;
+}
+
+.SECCIONES {
+  display: flex;
+  align-items: center;
+}
+
+.rectangulo-amarillo {
+  background-color: #f7a00e;
+  width: 20px;
+  height: 60px;
+  margin-top: 160px;
+}
+
+#SOBRE-MI div h3 {
+  color: #1b1e1f;
+  font-family: "Raleway";
+  font-size: 35px;
+  text-align: left;
+  border-top-style: solid;
+  border-top-width: 2px;
+  border-top-color: #f7a00e;
+  border-bottom-style: solid;
+  border-bottom-width: 2px;
+  border-bottom-color: #f7a00e;
+  line-height: 40pt;
+}
+#SOBRE-MI div p {
+  font-size: 17px;
+  line-height: 24px;
+  text-align: justify;
+}
 
 /*# sourceMappingURL=style.css.map */

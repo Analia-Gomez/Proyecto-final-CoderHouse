@@ -5,37 +5,6 @@
 @import "componentes/galeria-index";
 @import "componentes/servicios-index";
 @import "componentes/trabajos-index";
+@import "componentes/sobre-mi-index";
 
-/*NO APLIQUÉ SASS EN ESTAS SECCIONES*/
 
-
-/*específico de la sección sobre mi*/
-.nombre { 
-    color:#1b1e1f;
-    background-color: #d0cfcd;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    font-size: 35px;
-    text-align: left;
-    padding: 4px 25px;}
-.parrafo-sobremi {
-    background-color: #004f87;
-    color: #d0cfcd;
-    font-size: 18px;
-    line-height: 22px;
-    text-align: justify;
-    padding: 16px 25px;
-    margin-top: 20px;}
-.Titulos1-b {
-    color:#141f35;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    font-size: 25px;
-    text-align: left;
-    margin-top: 30px;}
-.parrafos-sobremi2 {
-    color: #1b1e1f;
-    font-family: "Muli";
-    font-size: 16px;
-    text-align: justify;
-    line-height: 20px;
-    margin-top: 8px;}
-/*Fin sección Sobre mi*/
