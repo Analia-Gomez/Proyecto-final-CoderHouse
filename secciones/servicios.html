@@ -30,11 +30,11 @@
     <header class="fixed-top row">
         <nav class="navbar navbar-expand-lg navbar-light">
             <div class="container-fluid">
-                <a class="navbar-brand col-8" href="../index.html"><img src="../imagenes-proyecto/logo-gris.png" alt="Logo Guillermo Rodolfo Gómez Arquitecto"></a>
+                <a class="navbar-brand col-lg-4" href="../index.html"><img src="../imagenes-proyecto/logo-gris.png" alt="Logo Guillermo Rodolfo Gómez Arquitecto"></a>
                     <button class="navbar-toggler hamburguesa" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
                       <span class="navbar-toggler-icon"></span>
                     </button>
-                <div class="collapse navbar-collapse col-4" id="navbarNavDropdown">
+                <div class="collapse navbar-collapse col-lg-8 justify-content-end" id="navbarNavDropdown">
                     <ul class="navbar-nav">
                         <li class="nav-item">
                           <a class="nav-link m-2" aria-current="page" href="../index.html">HOME</a>
@@ -65,14 +65,16 @@
     </header>
     <!--Fin header Bootstrap-->
 
-    <section class="container">
-        <div class="row">
-            <h1 class="SECCIONES col-lg-6 col-sm-12"><strong>SERVICIOS</strong></h1>
+    <section class="container servicios-html">
+        <div class="row m-0 mb-3">
+            <div class="rectangulo-amarillo col-1"></div>
+            <h1 class="SECCIONES col-11">SERVICIOS</h1>
         </div>
+
 
         <!--sección proyecto arquitectónico-->
         <section id="proyecto-arquitectonico" class="row mt-5 mb-5">
-            <div id="carouselExampleControls" class="carousel slide col-lg-4 col-sm-12" data-bs-ride="carousel">
+            <div id="carouselExampleControls" class="carousel slide col-lg-4 col-sm-12 mb-5" data-bs-ride="carousel">
                 <div class="carousel-inner">
                   <div class="carousel-item active">
                     <img src="../imagenes-proyecto/proyecto1.svg" class="d-block w-100" alt="proyecto arquitectónico1">
@@ -84,58 +86,50 @@
                     <img src="../imagenes-proyecto/proyecto3.svg" class="d-block w-100" alt="proyecto arquitectónico3">
                   </div>
                 </div>
-                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
-                  <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                  <span class="visually-hidden">Previous</span>
-                </button>
-                <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="next">
-                  <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                  <span class="visually-hidden">Next</span>
-                </button>
             </div>
 
             <div class="col-lg-8 col-sm-12">
-                <h2>Proyecto arquitectónico</h2>
+                <h2 class="mb-2">PROYECTO ARQUITECTÓNICO</h2>
                 <p class="p-especial">Este servicio contempla la creación de diseños únicos con la 
                   provisión de una gama completa de servicios profesionales. 
                   El diseño arquitectónico es el desarrollo completo de edificios para diversos fines 
                   y, por supuesto, la preparación de documentación para reconstrucción o nuevos edificios.
                 </p>
-                <p class="p-especial">Esto es necesario para el diseño de locales residenciales, casas de campo, cabañas,
+                <p class="p-especial m-0">Esto es necesario para el diseño de locales residenciales, casas de campo, cabañas,
                   edificios de varios pisos, edificios privados y comerciales. En un proyecto de construcción,
                   se establecen objetivos claramente definidos con respecto al diseño e interior. 
                   También es posible predecir el momento de los trabajos de construcción debido al proyecto.
                 </p>
-                
-                <ul>
-                    <li>Trabajo de preparatoria
-                        <p>Se conoce el sitio donde se realizará el proyecto, se toman medidas, se recopila 
-                          información inicial, incluidos datos generales sobre sistemas de ingeniería. 
-                          En caso de remodelación, se evalúa la posibilidad de realizar cambios estructurales en la 
-                          casa e identificar sus características. Se llevará a cabo una entrevista con el cliente 
-                          a fin de identificar las necesidades y deseos en la organización del espacio y el diseño. 
-                          Esta etapa incluye la planificación del presupuesto para la ejecución del proyecto, donde 
-                          se calcula todos los costes y se acuerda el presupuesto final con el cliente.
-                        </p>
-                    </li>
-                    <li>Creación de diseño y concepto.
-                        <p>Basado en los datos recopilados, se desarrolla una solución de planificación individual 
-                          y se crea un concepto general para el interior de la casa. El concepto se crea a partir de 
-                          referencias y prototipos existentes, y muestra la dirección y la atmósfera del diseño futuro.
-                        </p>
-                    </li>
-                    <li>Crear visualización
-                        <p>Después de la aprobación del concepto, se crea una visualización 3D fotorrealista, 
-                          en la que puede ver en detalle cómo se verá el interior de su casa después 
-                          de la finalización de la obra.
-                        </p>
-                    </li>
-                    <li>Preparación de dibujos de trabajo.
-                        <p>Después de la aprobación de las etapas anteriores, sigue el desarrollo, verificación 
-                          y transferencia de los dibujos arquitectónicos y de ingeniería de trabajo 
-                          necesarios para la implementación de los trabajos de construcción.
-                        </p>
-                    </li>
+
+                <ul class="mt-4 p-0">
+                    <li>Trabajo de preparatoria</li>
+                    <p>Se conoce el sitio donde se realizará el proyecto, se toman medidas, se recopila 
+                    información inicial, incluidos datos generales sobre sistemas de ingeniería. 
+                    En caso de remodelación, se evalúa la posibilidad de realizar cambios estructurales en la 
+                    casa e identificar sus características. Se llevará a cabo una entrevista con el cliente 
+                    a fin de identificar las necesidades y deseos en la organización del espacio y el diseño. 
+                    Esta etapa incluye la planificación del presupuesto para la ejecución del proyecto, donde 
+                    se calcula todos los costes y se acuerda el presupuesto final con el cliente.
+                    </p>
+                    
+                    <li>Creación de diseño y concepto</li>
+                    <p>Basado en los datos recopilados, se desarrolla una solución de planificación individual 
+                    y se crea un concepto general para el interior de la casa. El concepto se crea a partir de 
+                    referencias y prototipos existentes, y muestra la dirección y la atmósfera del diseño futuro.
+                    </p>
+                    
+                    <li>Crear visualización</li>
+                    <p>Después de la aprobación del concepto, se crea una visualización 3D fotorrealista, 
+                    en la que puede ver en detalle cómo se verá el interior de su casa después 
+                    de la finalización de la obra.
+                    </p>
+                    
+                    <li>Preparación de dibujos de trabajo</li>
+                    <p>Después de la aprobación de las etapas anteriores, sigue el desarrollo, verificación 
+                    y transferencia de los dibujos arquitectónicos y de ingeniería de trabajo 
+                    necesarios para la implementación de los trabajos de construcción.
+                    </p>
+                    
                 </ul>
             </div>
         </section>
@@ -143,7 +137,7 @@
 
         <!--sección dirección de obra-->
         <section id="direccion-de-obra" class="row mt-5 mb-5">
-            <div id="carouselExampleControls" class="carousel slide col-lg-4 col-sm-12" data-bs-ride="carousel">
+            <div id="carouselExampleControls" class="carousel slide col-lg-4 col-sm-12 mb-5" data-bs-ride="carousel">
                 <div class="carousel-inner">
                   <div class="carousel-item active">
                     <img src="../imagenes-proyecto/direccion1.svg" class="d-block w-100" alt="dirección de obra1">
@@ -155,14 +149,6 @@
                     <img src="../imagenes-proyecto/direccion3.svg" class="d-block w-100" alt="dirección de obra3">
                   </div>
                 </div>
-                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
-                  <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                  <span class="visually-hidden">Previous</span>
-                </button>
-                <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="next">
-                  <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                  <span class="visually-hidden">Next</span>
-                </button>
             </div>
 
             <div class="col-lg-8 col-sm-12">
@@ -171,19 +157,20 @@
                   a través del libro de obra e informes periódicos, estudio 
                   y aprobación de certificados de pago.
                 </p>
-                <ul>
-                    <li>Realización de la supervisión de campo
-                        <p>Durante los trabajos de construcción, el arquitecto va regularmente al lugar 
-                          y monitorea el trabajo de los contratistas para verificar el cumplimiento 
-                          del trabajo realizado con los dibujos, visualizaciones.
-                        </p>
-                    </li>
-                    <li>Resolución de problemas 
-                        <p>Se resuelven situaciones imprevistas no estándar para que en la salida se obtenga 
-                          el interior que se vio en la visualización, cuidando cada detalle pactado 
-                          con el cliente anteriormente.
-                        </p>
-                    </li>
+
+                <ul class="mt-4 p-0">
+                    <li>Realización de la supervisión de campo</li>
+                    <p>Durante los trabajos de construcción, el arquitecto va regularmente al lugar 
+                    y monitorea el trabajo de los contratistas para verificar el cumplimiento 
+                    del trabajo realizado con los dibujos, visualizaciones.
+                    </p>
+                    
+                    <li>Resolución de problemas</li>
+                    <p>Se resuelven situaciones imprevistas no estándar para que en la salida se obtenga 
+                    el interior que se vio en la visualización, cuidando cada detalle pactado 
+                    con el cliente anteriormente.
+                    </p>
+                    
                 </ul>
             </div>
         </section>
@@ -191,7 +178,7 @@
 
         <!--sección ejecución de obra-->
         <section id="ejecucion-de-obra" class="row mt-5 mb-5">
-            <div id="carouselExampleControls" class="carousel slide col-lg-4 col-sm-12" data-bs-ride="carousel">
+            <div id="carouselExampleControls" class="carousel slide col-lg-4 col-sm-12 mb-5" data-bs-ride="carousel">
                 <div class="carousel-inner">
                   <div class="carousel-item active">
                     <img src="../imagenes-proyecto/ejecucion1.svg" class="d-block w-100" alt="ejecución de obra1">
@@ -203,14 +190,6 @@
                     <img src="../imagenes-proyecto/ejecucion3.svg" class="d-block w-100" alt="ejecución de obra3">
                   </div>
                 </div>
-                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
-                  <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                  <span class="visually-hidden">Previous</span>
-                </button>
-                <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="next">
-                  <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                  <span class="visually-hidden">Next</span>
-                </button>
             </div>
 
             <div class="col-lg-8 col-sm-12">
@@ -218,17 +197,21 @@
                 <p class="p-especial">Se dirige la ejecución material de la obra, y al mismo tiempo se controla 
                   a nivel de calidad, y también de cantidad, la construcción y la calidad de la edificación.
                 </p>
-                <ul>
-                    <li>El arquitecto asume el control de calidad de la obra a edificar. Y verifica 
-                      la recepción de los productos de construcción necesarios, mandando la realización 
-                      de los ensayos y las pruebas que sean preceptivas y necesarias.
-                    </li>
-                    <li>Se realiza una dirección comprometida en lograr la edificación proyectada: 
-                      la supervisión directa, y el control sobre el trabajo del constructor, para que genere 
-                      una correcta ejecución de la obra a construir y se ajuste a lo proyectado y plasmado 
-                      anteriormente. Se controla el proceso de construcción tanto a nivel cuantitativo 
-                      (cantidad) como cualitativo (calidad).
-                    </li>
+
+                <ul class="mt-4 p-0">
+                    <li>El arquitecto asume el control</li>
+                    <p> De calidad de la obra a edificar. Y verifica 
+                    la recepción de los productos de construcción necesarios, mandando la realización 
+                    de los ensayos y las pruebas que sean preceptivas y necesarias.
+                    </p>
+                    
+                    <li>Dirección comprometida</li>
+                    <p>Se realiza una dirección comprometida en lograr la edificación proyectada: 
+                    la supervisión directa, y el control sobre el trabajo del constructor, para que genere 
+                    una correcta ejecución de la obra a construir y se ajuste a lo proyectado y plasmado 
+                    anteriormente. Se controla el proceso de construcción tanto a nivel cuantitativo 
+                    (cantidad) como cualitativo (calidad).
+                    </p>
                 </ul>
             </div>
         </section>

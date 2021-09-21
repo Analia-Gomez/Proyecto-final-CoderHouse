@@ -64,6 +64,20 @@ p {
   margin-top: 160px;
 }
 
+#TRABAJOS div div h3, .servicios-html section div h2 {
+  font-family: "Raleway";
+  font-weight: 600;
+  font-size: 30px;
+  color: #1b1e1f;
+  border-top-style: solid;
+  border-top-width: 2px;
+  border-top-color: #f7a00e;
+  border-bottom-style: solid;
+  border-bottom-width: 2px;
+  border-bottom-color: #f7a00e;
+  line-height: 40pt;
+}
+
 * {
   margin: 0px;
   padding: 0px;
@@ -127,6 +141,20 @@ p {
   width: 20px;
   height: 60px;
   margin-top: 160px;
+}
+
+#TRABAJOS div div h3, .servicios-html section div h2 {
+  font-family: "Raleway";
+  font-weight: 600;
+  font-size: 30px;
+  color: #1b1e1f;
+  border-top-style: solid;
+  border-top-width: 2px;
+  border-top-color: #f7a00e;
+  border-bottom-style: solid;
+  border-bottom-width: 2px;
+  border-bottom-color: #f7a00e;
+  line-height: 40pt;
 }
 
 header nav div div ul li a {
@@ -234,6 +262,20 @@ p {
   margin-top: 160px;
 }
 
+#TRABAJOS div div h3, .servicios-html section div h2 {
+  font-family: "Raleway";
+  font-weight: 600;
+  font-size: 30px;
+  color: #1b1e1f;
+  border-top-style: solid;
+  border-top-width: 2px;
+  border-top-color: #f7a00e;
+  border-bottom-style: solid;
+  border-bottom-width: 2px;
+  border-bottom-color: #f7a00e;
+  line-height: 40pt;
+}
+
 footer div .menucontacto, footer div div div {
   color: #d0cfcd;
   font-family: "Raleway";
@@ -333,12 +375,39 @@ p {
   margin-top: 160px;
 }
 
-section div .p-especial {
-  margin: 10px;
-  font-size: 18px;
-  text-align: justify;
-  line-height: 24px;
+#TRABAJOS div div h3, .servicios-html section div h2 {
+  font-family: "Raleway";
+  font-weight: 600;
+  font-size: 30px;
+  color: #1b1e1f;
+  border-top-style: solid;
+  border-top-width: 2px;
+  border-top-color: #f7a00e;
+  border-bottom-style: solid;
+  border-bottom-width: 2px;
+  border-bottom-color: #f7a00e;
+  line-height: 40pt;
+}
+
+.servicios-html div h1 {
+  font-size: 38px;
+  font-weight: 600;
+}
+.servicios-html section div .p-especial {
+  font-weight: 500;
+}
+.servicios-html section div ul {
+  list-style: none;
+}
+.servicios-html section div ul li {
+  font-family: "Raleway";
   color: #004f87;
+  font-weight: 600;
+  font-size: 18px;
+  border-bottom-style: solid;
+  border-bottom-width: 1px;
+  border-bottom-color: #f7a00e;
+  line-height: 20pt;
 }
 
 * {
@@ -404,6 +473,20 @@ p {
   width: 20px;
   height: 60px;
   margin-top: 160px;
+}
+
+#TRABAJOS div div h3, .servicios-html section div h2 {
+  font-family: "Raleway";
+  font-weight: 600;
+  font-size: 30px;
+  color: #1b1e1f;
+  border-top-style: solid;
+  border-top-width: 2px;
+  border-top-color: #f7a00e;
+  border-bottom-style: solid;
+  border-bottom-width: 2px;
+  border-bottom-color: #f7a00e;
+  line-height: 40pt;
 }
 
 #HOME {
@@ -481,6 +564,20 @@ p {
   width: 20px;
   height: 60px;
   margin-top: 160px;
+}
+
+#TRABAJOS div div h3, .servicios-html section div h2 {
+  font-family: "Raleway";
+  font-weight: 600;
+  font-size: 30px;
+  color: #1b1e1f;
+  border-top-style: solid;
+  border-top-width: 2px;
+  border-top-color: #f7a00e;
+  border-bottom-style: solid;
+  border-bottom-width: 2px;
+  border-bottom-color: #f7a00e;
+  line-height: 40pt;
 }
 
 #SERVICIOS div div h3 {
@@ -577,7 +674,7 @@ p {
   margin-top: 160px;
 }
 
-#TRABAJOS div div h3 {
+#TRABAJOS div div h3, .servicios-html section div h2 {
   font-family: "Raleway";
   font-weight: 600;
   font-size: 30px;
@@ -669,6 +766,20 @@ p {
   width: 20px;
   height: 60px;
   margin-top: 160px;
+}
+
+.servicios-html section div h2, #TRABAJOS div div h3 {
+  font-family: "Raleway";
+  font-weight: 600;
+  font-size: 30px;
+  color: #1b1e1f;
+  border-top-style: solid;
+  border-top-width: 2px;
+  border-top-color: #f7a00e;
+  border-bottom-style: solid;
+  border-bottom-width: 2px;
+  border-bottom-color: #f7a00e;
+  line-height: 40pt;
 }
 
 #SOBRE-MI div h3 {
